@@ -1,0 +1,5 @@
+# Cloudflare Pages：单页应用路由兜底
+# 直接访问 /t/xxx 或刷新页面时，Pages 找不到对应静态文件，需要回落到 index.html。
+# Pages 会先尝试命中真实静态文件（/assets/*、/sitemap.xml、/robots.txt 等均不受影响），
+# 再应用本规则，因此无需为静态资源写排除规则。
+/*    /index.html   200
