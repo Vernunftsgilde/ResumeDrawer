@@ -1,5 +1,8 @@
 # 部署手册：GitHub → Cloudflare Pages → Supabase
 
+- 仓库：https://github.com/Vernunftsgilde/ResumeDrawer
+- 生产分支：`main`
+
 代码推送到 GitHub 后，剩下的配置分三部分：**Cloudflare Pages 建站**、**Supabase 后台配置**、
 **两边互相登记域名**。按顺序做一次即可。
 
